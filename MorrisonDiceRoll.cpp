@@ -4,15 +4,6 @@
 #include<windows.h>
 using namespace std;
 int main()
-//a program that has a "Player 1" and "Player 2" variable/
-//Have the user enter a name for Player 1 and Player 2/
-//Have your program roll a 20 sided die for each Player and store that information/
-//If the dice roll is a 1 also store that the roll was a "Critical Failure" and if the dice roll was a 20 store that the roll was a "Critical Success"/
-
-//show the user the rolls
-//show if the roll was a critical failure or critical success
-//output the Winner (the player with the highest roll)
-//If both rolls are the same output that the players were "Evenly Matched"
 {
     HANDLE screen = GetStdHandle(STD_OUTPUT_HANDLE);
     string player1;
